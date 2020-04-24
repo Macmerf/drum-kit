@@ -1,0 +1,43 @@
+ body{
+     background: url(https://luxfon.com/pic/201203/1920x1080/luxfon.com-3124.jpg);
+     display: flex;
+     align-items: center;
+   
+ }
+ .keys{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+ .key{
+     transition: all 0.07s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    padding: 15px;
+    padding-top: 1px;
+    border-radius: 10px;
+    margin: 8px;
+    width: fit-content;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(26, 31, 25, 0.63);
+ }
+ .playing{
+     transform: scale(1.1);
+     border-color:rgb(255, 187, 0);
+     box-shadow: 0 0 5px rgb(255, 187, 0);
+ }
+ kbd{
+    font-family: 'Oswald', sans-serif;
+    color: beige;
+ }
+.sound{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 187, 0);
+}
+
